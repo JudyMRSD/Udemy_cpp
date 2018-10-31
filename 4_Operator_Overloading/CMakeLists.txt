@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.12)
+project(4_Operator_Overloading)
+
+set(CMAKE_CXX_STANDARD 14)
+
+#add_executable(4_Operator_Overloading overloadAssignmentOperator.cpp)
+#add_executable(4_Operator_Overloading overloading_the_insertion_operator_for_printing.cpp)
+#add_executable(4_Operator_Overloading 3_complex_number_class.cpp Complex.cpp)
+
+
+add_executable(4_Operator_Overloading 6_overloading_dereference_operator.cpp Complex.cpp)
