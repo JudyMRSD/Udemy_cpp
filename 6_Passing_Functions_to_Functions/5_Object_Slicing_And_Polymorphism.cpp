@@ -71,6 +71,9 @@ int main(){
     Child c1;
     Parent &p1 = c1;//correct method will be called for the corresponding object
     p1.print();//prints child
+
+    //A copy constructor is a member function which initializes an object using another object of the same class. 
+    //copy constructor is called When an object is constructed based on another object of the same class
     //upcasting a child object to parent object
     Parent p2 = Child();//copy initialization, two get sliced away
     p2.print();
