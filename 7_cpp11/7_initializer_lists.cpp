@@ -12,6 +12,7 @@ public:
     }
 
     void print(initializer_list<string> texts){
+        //auto is string here
         for(auto value:texts){
             cout<<value<<endl;
         }

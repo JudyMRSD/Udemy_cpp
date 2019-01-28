@@ -25,8 +25,8 @@ int main(){
     /*
      * output should be
      * four
-     * one
      * two
+     * three
      */
 
 
